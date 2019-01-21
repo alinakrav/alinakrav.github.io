@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -815,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
 .flexslider .flex-control-nav {
   bottom: -60px;
 }
-
+/* 
 .style-toggle {
   position: absolute;
   z-index: 999;
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 100px;
   border-radius: 100px;
   display: block;
-}
+} */
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
