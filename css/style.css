@@ -296,11 +296,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .fh5co-intro-text {
-  -webkit-transform: skewY(-7deg);
+  /* -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
   -ms-transform: skewY(-7deg);
   -o-transform: skewY(-7deg);
-  transform: skewY(-7deg);
+  transform: skewY(-7deg); */
   text-align: center;
 }
 #fh5co-header h1 {
@@ -815,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
 .flexslider .flex-control-nav {
   bottom: -60px;
 }
-/* 
+/*
 .style-toggle {
   position: absolute;
   z-index: 999;
