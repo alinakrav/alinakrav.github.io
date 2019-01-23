@@ -648,7 +648,7 @@ button, input, select, textarea, label {
 	margin-bottom: 0
 }
 
-.mb-1 {
+.mb-1 > .section-paragraph {
 	margin-bottom: 20px;
 }
 
