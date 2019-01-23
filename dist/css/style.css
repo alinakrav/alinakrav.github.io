@@ -648,10 +648,6 @@ button, input, select, textarea, label {
 	margin-bottom: 0
 }
 
-.mb-1 > .section-paragraph {
-	margin-bottom: 20px;
-}
-
 .ml-0 {
 	margin-left: 0
 }
@@ -1518,6 +1514,11 @@ button, input, select, textarea, label {
 @media (min-width: 641px) {
 	.media .section-inner {
 		padding-bottom: 120px
+	}
+
+	.section-paragraph .mb-1 {
+		font-size: 100px;
+		margin-bottom: 20px;
 	}
 
 	.media .section-paragraph {
