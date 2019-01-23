@@ -649,7 +649,7 @@ button, input, select, textarea, label {
 }
 
 .mb-0 {
-	martin-bottom: -50px;
+	margin-bottom: 20px;
 }
 
 .ml-0 {
