@@ -1511,7 +1511,7 @@ button, input, select, textarea, label {
 	overflow: visible
 }
 
-section-paragraph p.mb-1 {
+ul#section-paragraph p.mb-1 {
 	margin-bottom: 20px;
 }
 
