@@ -1524,7 +1524,7 @@ button, input, select, textarea, label {
 	.media .section-paragraph {
 		padding-left: 72px;
 		padding-right: 72px;
-		margin-bottom: 80px
+		margin-bottom: 300px
 	}
 
 	.media-canvas::before {
