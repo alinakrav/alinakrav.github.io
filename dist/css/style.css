@@ -1240,7 +1240,8 @@ button, input, select, textarea, label {
 .hero {
 	text-align: center;
 	padding-top: 48px;
-	padding-bottom: 24px
+	padding-bottom: 24px;
+	padding-left: 300px
 }
 
 .hero-copy {
