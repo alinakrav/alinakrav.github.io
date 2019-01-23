@@ -1517,12 +1517,12 @@ button, input, select, textarea, label {
 
 	.section-inner p.mb-1 {
 		margin-bottom: 20px;
+		text-align: center;
 	}
 
 	.media .section-inner {
 		padding-bottom: 120px
 	}
-
 
 	.media .section-paragraph {
 		padding-left: 72px;
