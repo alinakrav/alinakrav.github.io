@@ -448,11 +448,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   background: rgba(255, 255, 255, 0.03);
   width: 101%;
-  /* -webkit-transform: skewY(-7deg);
+  -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
   -ms-transform: skewY(-7deg);
   -o-transform: skewY(-7deg);
-  transform: skewY(-7deg); */
+  transform: skewY(-7deg);
 }
 .fh5co-project.no-border {
   border-bottom: none;
