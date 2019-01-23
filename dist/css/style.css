@@ -1161,6 +1161,27 @@ button, input, select, textarea, label {
 	box-shadow: 0 4px 16px rgba(6, 16, 31, 0.35)
 }
 
+.button-primary:hover {
+	background: #f94763
+}
+
+.button-primary.button-shadow::before {
+	box-shadow: 0 8px 16px rgba(249, 66, 95, 0.25);
+	mix-blend-mode: normal
+}
+
+.button-primary.button-shadow:hover::before {
+	box-shadow: 0 8px 16px rgba(249, 66, 95, 0.35)
+}
+
+.button-primary .button-sm.button-shadow::before {
+	box-shadow: 0 4px 16px rgba(249, 66, 95, 0.25)
+}
+
+.button-primary .button-sm.button-shadow:hover::before {
+	box-shadow: 0 4px 16px rgba(249, 66, 95, 0.35)
+}
+
 .button-block {
 	display: flex
 }
