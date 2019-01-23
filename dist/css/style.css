@@ -1513,6 +1513,7 @@ button, input, select, textarea, label {
 
 .section-paragraph p.mb-1 {
 	margin-bottom: 20px;
+	color: #FFF
 }
 
 @media (min-width: 641px) {
