@@ -1512,7 +1512,7 @@ button, input, select, textarea, label {
 
 @media (min-width: 641px) {
 	.media .section-inner {
-		padding-bottom: 144px
+		padding-bottom: 20px
 	}
 
 	.media .section-paragraph {
