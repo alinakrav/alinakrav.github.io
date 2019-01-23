@@ -348,6 +348,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
+	margin-bottom: 90px
 	font-size: 40px;
 	line-height: 52px;
 	letter-spacing: 0px
