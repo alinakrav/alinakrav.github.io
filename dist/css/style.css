@@ -1237,12 +1237,15 @@ button, input, select, textarea, label {
 	}
 }
 
+element.style.hero-copy {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .hero {
 	text-align: center;
 	padding-top: 48px;
 	padding-bottom: 24px;
-	padding-left: auto;
-	padding-right: auto;
 }
 
 .hero-copy {
@@ -1346,7 +1349,7 @@ button, input, select, textarea, label {
 
 	.hero-copy {
 		padding-top: 88px;
-		padding-right: 48px;
+		/* padding-right: 48px; */
 		min-width: 448px;
 		max-width: 588px
 	}
