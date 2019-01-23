@@ -1237,10 +1237,6 @@ button, input, select, textarea, label {
 	}
 }
 
-/* element.style.hero-copy {
-	margin-left: auto;
-	margin-right: auto;
-} */
 
 .hero {
 	text-align: center;
@@ -1327,7 +1323,7 @@ button, input, select, textarea, label {
 @media (min-width: 641px) {
 	.hero {
 		position: relative;
-		text-align: left;
+		text-align: center;
 		padding-top: 56px;
 		padding-bottom: 12px
 	}
