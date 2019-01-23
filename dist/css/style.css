@@ -1373,10 +1373,10 @@ button, input, select, textarea, label {
 	.hero-cta .button {
 		min-width: 170px
 	}
-
+/* 
 	.hero-cta .button:first-child {
 		margin-right: 16px
-	}
+	} */
 }
 
 .features .section-title {
