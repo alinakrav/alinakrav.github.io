@@ -348,7 +348,6 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	margin-bottom: 90px;
 	font-size: 40px;
 	line-height: 52px;
 	letter-spacing: 0px
@@ -356,7 +355,6 @@ h2, .h2 {
 
 @media (min-width: 641px) {
 	h2, .h2 {
-		margin-bottom: 90px;
 		font-size: 44px;
 		line-height: 56px;
 		letter-spacing: 0px
@@ -418,7 +416,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 h1, h2, .h1, .h2 {
-	margin-top: 48px;
+	margin-top: 40px;
 	margin-bottom: 16px
 }
 
@@ -640,6 +638,10 @@ button, input, select, textarea, label {
 
 .mt-0 {
 	margin-top: 250px;
+}
+
+.mt-1 {
+	margin-bottom: 90px;
 }
 
 .mr-0 {
