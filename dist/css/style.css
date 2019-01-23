@@ -1511,14 +1511,14 @@ button, input, select, textarea, label {
 	overflow: visible
 }
 
+.mb-1 {
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+
 @media (min-width: 641px) {
 	.media .section-inner {
 		padding-bottom: 120px
-	}
-
-	.section-paragraph p.mb-1 {
-		font-size: 100px;
-		margin-bottom: 20px;
 	}
 
 	.media .section-paragraph {
