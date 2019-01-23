@@ -1161,31 +1161,6 @@ button, input, select, textarea, label {
 	box-shadow: 0 4px 16px rgba(6, 16, 31, 0.35)
 }
 
-.button-primary {
-	background-color: #F9425F
-}
-
-.button-primary:hover {
-	background: #f94763
-}
-
-.button-primary.button-shadow::before {
-	box-shadow: 0 8px 16px rgba(249, 66, 95, 0.25);
-	mix-blend-mode: normal
-}
-
-.button-primary.button-shadow:hover::before {
-	box-shadow: 0 8px 16px rgba(249, 66, 95, 0.35)
-}
-
-.button-primary .button-sm.button-shadow::before {
-	box-shadow: 0 4px 16px rgba(249, 66, 95, 0.25)
-}
-
-.button-primary .button-sm.button-shadow:hover::before {
-	box-shadow: 0 4px 16px rgba(249, 66, 95, 0.35)
-}
-
 .button-block {
 	display: flex
 }
@@ -1347,7 +1322,7 @@ button, input, select, textarea, label {
 		padding-top: 88px;
 		/* padding-right: 48px; */
 		min-width: 448px;
-		max-width: 588px
+		max-width: 800px
 	}
 
 	.hero-title {
