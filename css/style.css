@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 #fh5co-header h1 span {
-  font-family: "Playfair Display", Times, serif;
+  font-family: "Heebo", Times, serif;
   font-style: italic;
   text-transform: none !important;
 }
