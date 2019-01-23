@@ -1472,7 +1472,7 @@ button, input, select, textarea, label {
 		padding: 32px 30px
 	}
 }
-
+/*
 .img1 {
 				position: relative;
 				width: 350px;
@@ -1492,7 +1492,7 @@ button, input, select, textarea, label {
 				opacity: 1;
 				-webkit-transform: translateY(0);
 				transform: translateY(0)
-}
+} */
 
 .media .section-inner {
 	padding-bottom: 104px
@@ -1510,6 +1510,10 @@ button, input, select, textarea, label {
 	position: relative;
 	width: 100%;
 	height: auto
+}
+
+.media-canvas p.img1 {
+	background-image: url(images/me.JPG);
 }
 
 .media-canvas::before {
