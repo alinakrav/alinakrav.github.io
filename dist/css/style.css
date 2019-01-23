@@ -1498,7 +1498,7 @@ button, input, select, textarea, label {
 	height: 230px;
 	bottom: -76px;
 	left: calc(50% - 160px);
-	background-image: url(images/me.JPG)
+	background-image: url(images/me.JPG);
 	background-repeat: no-repeat;
 	background-size: 320px 230px
 }
