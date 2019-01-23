@@ -1237,10 +1237,10 @@ button, input, select, textarea, label {
 	}
 }
 
-element.style.hero-copy {
+/* element.style.hero-copy {
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
 .hero {
 	text-align: center;
