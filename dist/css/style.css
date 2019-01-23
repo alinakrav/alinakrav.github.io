@@ -1376,7 +1376,8 @@ button, input, select, textarea, label {
 	}
 
 	.hero-cta {
-		margin: auto
+		margin-bottom: 120px;
+		margin: auto;
 	}
 
 	.hero-cta .button {
@@ -1525,7 +1526,6 @@ button, input, select, textarea, label {
 	}
 
 	.media .section-inner {
-		padding-bottom: 120px
 	}
 
 	.media .section-paragraph {
