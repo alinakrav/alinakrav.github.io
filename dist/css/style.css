@@ -1516,7 +1516,7 @@ button, input, select, textarea, label {
 		padding-bottom: 120px
 	}
 
-	.section-paragraph .mb-1 {
+	.mb-1 .section-paragraph {
 		font-size: 100px;
 		margin-bottom: 20px;
 	}
