@@ -1511,20 +1511,22 @@ button, input, select, textarea, label {
 	overflow: visible
 }
 
-.media .section-paragraph p.mb-1 {
-	margin-bottom: 20px;
-	color: #FFF
-}
+
 
 @media (min-width: 641px) {
+	.media .section-inner p.mb-1 {
+		margin-bottom: 20px;
+		color: #FFF
+	}
 	.media .section-inner {
 		padding-bottom: 120px
 	}
 
+
 	.media .section-paragraph {
 		padding-left: 72px;
 		padding-right: 72px;
-		margin-bottom: 300px
+		margin-bottom: 80px
 	}
 
 	.media-canvas::before {
