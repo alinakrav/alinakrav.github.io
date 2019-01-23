@@ -1514,10 +1514,11 @@ button, input, select, textarea, label {
 
 
 @media (min-width: 641px) {
-	.media .section-inner p.mb-1 {
+
+	.mb-1 {
 		margin-bottom: 20px;
-		color: #FFF
 	}
+
 	.media .section-inner {
 		padding-bottom: 120px
 	}
