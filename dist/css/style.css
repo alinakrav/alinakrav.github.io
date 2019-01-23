@@ -1371,7 +1371,7 @@ button, input, select, textarea, label {
 	}
 
 	.hero-cta {
-		margin: 0
+		margin: auto
 	}
 
 	.hero-cta .button {
