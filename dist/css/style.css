@@ -1515,7 +1515,7 @@ button, input, select, textarea, label {
 
 @media (min-width: 641px) {
 
-	.mb-1 {
+	.section-inner p.mb-1 {
 		margin-bottom: 20px;
 	}
 
