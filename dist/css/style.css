@@ -1321,6 +1321,47 @@ button, input, select, textarea, label {
 	margin-right: auto;
 	margin-bottom: 40px
 }
+/*  */
+.en {
+    display: inline-block;
+    font: normal normal normal 14px/1  Heebo;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+    font-style: italic;
+}
+
+a:link, a:visited {
+    color: #444;
+    text-decoration: none!important;
+}
+
+a {
+    color: #444;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+a {
+    color: #1EAEDB;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.random-wrapper {
+    font-family:  "Heebo", sans-serif;
+}
+
+/*  */
 
 @media (max-width: 639px) {
 	.hero-cta .button {
