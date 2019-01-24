@@ -524,7 +524,7 @@ button, input, select, textarea, label {
       rgba(255, 0, 0, 0.45)
     ),
     /* bottom, image */
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/owl1.jpg);
+    /* url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/owl1.jpg); */
 }
 
 .container, .container-sm {
