@@ -316,13 +316,13 @@ body, button, input, select, textarea {
 }
 
 a {
-	color: #F9425F;
+	color: #F9000F;
 	text-decoration: none
 }
 
 a:hover, a:active {
 	outline: 0;
-	text-decoration: underline
+	/* text-decoration: underline */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
