@@ -520,8 +520,8 @@ button, input, select, textarea, label {
   background:
     /* top, transparent red */
 		linear-gradient(
-			rgba(255, 0, 0, 0.45),
-			rgba(255, 0, 0, 0.45)
+			rgba(0, 0, 0, 0.55),
+			rgba(255, 0, 0, 0)
 		),
 		/* bottom, image */
 		url(images/me.JPG);
