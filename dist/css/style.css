@@ -519,13 +519,12 @@ button, input, select, textarea, label {
 .tinted-image {
   background:
     /* top, transparent red */
-    linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
-    ),
-    /* bottom, image */
-    url(images/me.JPG);
-
+		linear-gradient(
+			rgba(255, 0, 0, 0.45),
+			rgba(255, 0, 0, 0.45)
+		),
+		/* bottom, image */
+		url(images/me.JPG);
 }
 
 .container, .container-sm {
