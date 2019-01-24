@@ -1298,7 +1298,7 @@ button, input, select, textarea, label {
 }
 
 .feature-icon .icon-1 {
-	src: url(images/me.JPG);
+	content:url("images/me.JPG")
 }
 
 .device-mockup.has-loaded {
