@@ -524,7 +524,8 @@ button, input, select, textarea, label {
       rgba(255, 0, 0, 0.45)
     ),
     /* bottom, image */
-    content: url(images/me.JPG);
+    url(images/me.JPG);
+
 }
 
 .container, .container-sm {
