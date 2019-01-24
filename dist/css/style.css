@@ -1119,7 +1119,7 @@ button, input, select, textarea, label {
 	font-weight: 700;
 	line-height: 16px;
 	text-decoration: none !important;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	background-color: #273C5A;
 	color: #fff !important;
 	border: none;
