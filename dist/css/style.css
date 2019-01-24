@@ -1297,7 +1297,7 @@ button, input, select, textarea, label {
 	transition: opacity 0.6s cubic-bezier(0.5, -0.01, 0, 1.005), transform 0.6s cubic-bezier(0.5, -0.01, 0, 1.005), -webkit-transform 0.6s cubic-bezier(0.5, -0.01, 0, 1.005)
 }
 
-.icon {
+.feature-icon p.icon-1 {
 	src: url(images/me.JPG);
 }
 
