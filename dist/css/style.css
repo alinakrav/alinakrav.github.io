@@ -257,7 +257,7 @@ dd {
 
 img {
 	height: auto;
-	max-width: 100%;
+	max-width: 250%;
 	vertical-align: middle
 }
 
@@ -514,6 +514,17 @@ b, strong {
 button, input, select, textarea, label {
 	font-size: 20px;
 	line-height: 30px
+}
+
+.tinted-image {
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/owl1.jpg);
 }
 
 .container, .container-sm {
