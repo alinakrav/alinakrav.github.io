@@ -1333,7 +1333,7 @@ button, input, select, textarea, label {
 		padding-bottom: 12px
 	}
 
-	.hero::before {
+	.hero::after {
 		content: '';
 		position: absolute;
 		left: 0;
