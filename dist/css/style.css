@@ -320,9 +320,10 @@ a {
 	text-decoration: none
 }
 
-.copy:hover {
+.media-header a.copy:hover {
 	background-color: white;
 }
+
 a:hover, a:active {
 	outline: 0;
 	background-color: white;
