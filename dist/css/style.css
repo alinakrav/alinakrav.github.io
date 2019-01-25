@@ -523,6 +523,18 @@ button, input, select, textarea, label {
 	line-height: 30px
 }
 
+td .tooltipcontainer {
+    position: relative;
+}
+td .tooltip {
+    display: none;
+    position: absolute;
+    /* More positioning, heigh, width, etc */
+}
+td image:hover .tooltip {
+    display: block;
+}
+
 .tinted-image {
   background:
     /* top, transparent red */
