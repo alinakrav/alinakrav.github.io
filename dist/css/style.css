@@ -531,7 +531,7 @@ td .tooltip {
     position: absolute;
     /* More positioning, heigh, width, etc */
 }
-.hoverclip:hover .tooltip {
+td .hoverclip:hover .tooltip{
     display: block;
 }
 
