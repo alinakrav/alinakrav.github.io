@@ -320,7 +320,7 @@ a {
 	text-decoration: none
 }
 
-a.copy:hover {
+.copy:hover {
 	background-color: white;
 }
 a:hover, a:active {
