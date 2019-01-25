@@ -322,7 +322,7 @@ a {
 
 a:hover, a:active {
 	outline: 0;
-	color: white;
+	background-color: white;
 	/* text-decoration: underline */
 }
 
