@@ -1229,7 +1229,7 @@ td .hoverclip:hover .tooltip{
 .site-header::before {
 	content: '';
 	position: relative;
-	right: 500px;
+	right: 0px;
 	top: 10%;
 	width: 373px;
 	height: 509px;
