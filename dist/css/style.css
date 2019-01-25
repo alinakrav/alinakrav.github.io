@@ -257,7 +257,7 @@ dd {
 
 img {
 	height: auto;
-	max-width: 250%;
+	max-width: 100%;
 	vertical-align: middle
 }
 
@@ -1448,6 +1448,7 @@ td .hoverclip:hover .tooltip{
 }
 
 .feature-title {
+	text-align: center;
 	font-family: "Heebo", sans-serif;
 	font-weight: 500
 }
