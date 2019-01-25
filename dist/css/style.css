@@ -320,7 +320,7 @@ a {
 	text-decoration: none
 }
 
-.media-header a.copy:hover {
+a.copy:hover {
 	background-color: white;
 }
 
