@@ -1226,7 +1226,7 @@ td .hoverclip:hover .tooltip{
 	padding: 390px 0
 }
 
-header .site-header::before {
+.site-header::before {
 	content: '';
 	position: absolute;
 	right: 0;
