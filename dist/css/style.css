@@ -319,6 +319,9 @@ a {
 	text-decoration: none
 }
 
+.clippy {
+	background-color: #e7e7e7;
+}
 .clippy:hover {
 	background-color: white;
 }
