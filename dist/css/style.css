@@ -320,15 +320,11 @@ a {
 }
 
 .clippy {
-	background-color: #e7e7e7;
-}
-
-.clippy::before {
-	mix-blend-mode: normal
+	background-color: #7386a3;
 }
 
 .clippy:hover {
-	background-color: white;
+	background-color: #ffffff;
 }
 
 a:hover, a:active {
