@@ -131,6 +131,7 @@
 
 // text copying
 function copyToClipboard(element) {
+  window.print("hello");  
 	var $temp = $("<input>");
 	$("body").append($temp);
 	$temp.val($(element).text()).select();
