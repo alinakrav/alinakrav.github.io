@@ -1334,8 +1334,20 @@ td .hoverclip:hover .tooltip{
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 40px
 }
+
+#first-button {
+	padding-bottom: 30px;
+}
+
+#resume {
+	background-color: #00b359;
+}
+
+#resume:hover {
+	background-color: #00bb5e;
+}
+
 
 @media (max-width: 639px) {
 	.hero-cta .button {
