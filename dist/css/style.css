@@ -1,3 +1,20 @@
+#email {
+	position:relative;
+	left:0px;
+	right:0px;
+}
+
+#email .share {
+	position: absolute;
+	margin-left: 15px;
+	height: 48px;
+}
+.share img {
+	height:100%;
+	margin-bottom:2px;
+	margin-top:-2px;
+}
+
 html {
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
@@ -1336,6 +1353,8 @@ td .hoverclip:hover .tooltip{
 	margin-right: auto;
 }
 
+
+
 #first-button {
 	padding-bottom: 30px;
 }
@@ -1347,6 +1366,24 @@ td .hoverclip:hover .tooltip{
 #resume:hover {
 	background-color: #00bb5e;
 }
+
+#resume.button-shadow::before {
+				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.25);
+				mix-blend-mode: normal
+}
+
+#resume.button-shadow:hover::before {
+				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.35)
+}
+
+#resume .button-sm.button-shadow::before {
+				box-shadow: 0 4px 16px rgba(0, 179, 89, 0.25)
+}
+
+#resume .button-sm.button-shadow:hover::before {
+				box-shadow: 0 4px 16px rgba(0, 179, 89, 0.35)
+}
+
 
 
 @media (max-width: 639px) {

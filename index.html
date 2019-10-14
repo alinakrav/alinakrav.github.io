@@ -7,11 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Alina Kravchenko</title>
 	<link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="dist/css/style.css">
 	<link rel="icon" href="images/favicon.ico">
 
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body class="is-boxed has-animations">
@@ -97,13 +100,15 @@
 				</div>
 			</section>
 
-			<div class="media-header text-center has-top-divider" style="padding-top:50px">
-				<h2 class="section-title mt-1" style="margin-bottom: 40px;">Contact</h2>
-			</div>
-			<div class="media-header text-center" style="padding-bottom:200px">
-				<a class="button button-primary button-shadow" href="mailto:kravchenko.s.alina@gmail.com">kravchenko.s.alina@gmail.com</a>
-				<img class="image clippy" title="Copy to Clipboard" onclick="copyToClipboard('kravchenko.s.alina@gmail.com')" src="images/clippy-stencil.png" style="position: relative; bottom: 50px; left: 758px; height: 48px;">
-			</div>
+		<div class="media-header text-center has-top-divider" style="padding-top:50px">
+			<h2 class="section-title mt-1" style="margin-bottom: 40px;">Contact</h2>
+		</div>
+		<div id="email" class="media-header text-center" style="padding-bottom:250px">
+			<a class="button button-primary button-shadow" title="Compose an Email" href="mailto:kravchenko.s.alina@gmail.com">kravchenko.s.alina@gmail.com</a>
+			<btn class="share" data-clipboard-text="kravchenko.s.alina@gmail.com">
+				<img class="image clippy" title="Copy to Clipboard" src="images/clippy-stencil.png">
+			</btn>
+		</div>
 
 	</div>
 	</main>
