@@ -130,6 +130,24 @@ button, input, optgroup, select, textarea {
 	margin: 0
 }
 
+.dot {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 10px;
+	border: 0;
+	box-shadow: 0 0 10px #fff;
+}
+
+#dot-light {
+	background-color: #fff;
+}
+
+#dot-dark {
+	background-color: #000;
+}
+  
 button, input {
 	overflow: visible
 }
@@ -342,6 +360,10 @@ a {
 
 .clippy:hover {
 	background-color: #ffffff;
+}
+
+.clippy:active {
+	height: 90%;
 }
 
 a:hover, a:active {
@@ -1215,16 +1237,16 @@ td .hoverclip:hover .tooltip{
 }
 
 .button-primary:hover {
-				background: #f94763
+				background: #ff556f
 }
 
 .button-primary.button-shadow::before {
-				box-shadow: 0 8px 16px rgba(249, 66, 95, 0.25);
+				box-shadow: 0 8px 16px rgba(249, 66, 95, 0.4);
 				mix-blend-mode: normal
 }
 
 .button-primary.button-shadow:hover::before {
-				box-shadow: 0 8px 16px rgba(249, 66, 95, 0.35)
+				box-shadow: 0 8px 16px rgba(249, 66, 95, 0.55)
 }
 
 .button-primary .button-sm.button-shadow::before {
@@ -1365,16 +1387,16 @@ td .hoverclip:hover .tooltip{
 }
 
 #resume:hover {
-	background-color: #00bb5e;
+	background-color: #00ca65;
 }
 
 #resume.button-shadow::before {
-				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.25);
+				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.4);
 				mix-blend-mode: normal
 }
 
 #resume.button-shadow:hover::before {
-				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.35)
+				box-shadow: 0 8px 16px rgba(0, 179, 89, 0.55)
 }
 
 #resume .button-sm.button-shadow::before {
