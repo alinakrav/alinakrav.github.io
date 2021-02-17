@@ -1335,6 +1335,8 @@ td .hoverclip:hover .tooltip{
 	background: none;
 }
 
+#pdf-close:focus { outline:0; }
+
 #lang_box {
 	margin-right: 30px;
 	margin-left: auto;
