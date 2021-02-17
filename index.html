@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="image" property="og:image" content="media/header-image.png">
 	<meta name="title" property="og:title" content="My Digital Portfolio">
-	<meta name="description" property="og:description" content="Showcasing my work as a Computer Science student who wants to turn her love of programming into a career.">
+	<meta name="description" property="og:description"
+		content="Showcasing my work as a Computer Science student who wants to turn her love of programming into a career.">
 	<meta name="author" content="Alina Kravchenko">
 
 	<title>Alina Kravchenko</title>
@@ -38,16 +39,31 @@
 								tasks.
 								Right now, I&#39;m focused on school and maintaining my spot on the Honour&#39;s List,
 								but I am excited to invest time in a company related to
-								my field.<br /><br />I&#39;ve learned a lot during my work experiences, group projects, 
-								and individual projects, whether academic or personal. 
-								They forced me to learn different programming strategies, and cooperation 
+								my field.<br /><br />I&#39;ve learned a lot during my work experiences, group projects,
+								and individual projects, whether academic or personal.
+								They forced me to learn different programming strategies, and cooperation
 								tactics to help optimise the
 								quality of the final product under a time constraint.</p>
-							<div class="hero-cta" id="resume"><a class="green-button button button-primary button-shadow"
-									href="media/Resume - Alina.pdf">My Resumé</a></div>
+							<div class="hero-cta" id="resume"><a
+									class="green-button button button-primary button-shadow" onclick="toggleModal(true)">My
+									Resumé</a></div>
+							<div class="hidden" id="resume_modal">
+								<div id="pdf-options">
+									<button id="pdf-close" onclick="toggleModal(false)" data-close>
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<div id="lang_box">
+										<div id="lang_selected" class="english">🇬🇧 English<p style="display:inline; font-size:10px; padding-left:10px;">&#9660</p>
+											<div id="lang_menu" onclick="changeLang()">🇷🇺 Русский</div>	
+										</div>	
+									</div>					
+								</div>
+								<iframe id="resume-content" src="media/Alina - Resume.pdf" frameborder="0"></iframe>
+							</div>
 							<div class="hero-cta" id="github"><a class="pink-button button button-primary button-shadow"
 									href="https://github.com/kravchenkoalina">My GitHub</a></div>
-							<div class="hero-cta" id="linkedin" style="padding-bottom:40px"><a class="blue-button button button-primary button-shadow"
+							<div class="hero-cta" id="linkedin" style="padding-bottom:40px"><a
+									class="blue-button button button-primary button-shadow"
 									href="https://www.linkedin.com/in/alina-kr/">My LinkedIn</a></div>
 						</div>
 					</div>
@@ -66,7 +82,8 @@
 							to get into IOS development and <span style="color: #74a373">Swift</span>, and spent several
 							weeks intensively working on this project, which proved to be rewarding, as well as a major
 							learning curve.<br />I&#39;m looking into
-							potentially update my app with a widget, to make use of the new functionality in IOS 14.</p>
+							potentially update my app with a widget, to make use of the new functionality in IOS 14.
+						</p>
 						<center style="padding-bottom: 130px">
 							<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
 									id="livestocks" src="media/demo-light.mp4" type="video/mp4"
