@@ -1341,8 +1341,6 @@ td .hoverclip:hover .tooltip{
 	margin-right: 30px;
 	margin-left: auto;
 	top: 0;
-	/* width: 150px; */
-	background-color: red;
 	height: 30px;
 	align-items: center;
 }
@@ -1357,8 +1355,6 @@ td .hoverclip:hover .tooltip{
 #lang_selected {
 	color: white;
 	position: absolute;
-	width: max-content;
-	display: inline-block;
 	padding: 7px 7px 5px 7px;
 	background-color: rgb(50, 54, 57);
 	border-radius: 1px;
