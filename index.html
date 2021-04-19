@@ -44,25 +44,26 @@
 								They forced me to learn different programming strategies, and cooperation
 								tactics to help optimise the
 								quality of the final product under a time constraint.</p>
-							<div class="hero-cta" id="resume"><a
+							<div class="hero-cta scroll-together" id="resume"><a
 									class="green-button button button-primary button-shadow" onclick="toggleModal(true)">My
 									Resumé</a></div>
 							<div class="hidden" id="resume_modal">
 								<div id="pdf-options">
 									<button id="pdf-close" onclick="toggleModal(false)" data-close>
+										<div id="circle"></div>
 										<span aria-hidden="true">&times;</span>
 									</button>
 									<div id="lang_box">
 										<div id="lang_selected" class="english">🇬🇧 English<p style="display:inline; font-size:10px; padding-left:10px;">&#9660</p>
 											<div id="lang_menu" onclick="changeLang()">🇷🇺 Русский</div>	
 										</div>	
-									</div>					
+									</div>
 								</div>
 								<iframe id="resume-content" src="media/Alina - Resume.pdf" frameborder="0"></iframe>
 							</div>
-							<div class="hero-cta" id="github"><a class="pink-button button button-primary button-shadow"
+							<div class="hero-cta scroll-together" id="github"><a class="pink-button button button-primary button-shadow"
 									href="https://github.com/kravchenkoalina">My GitHub</a></div>
-							<div class="hero-cta" id="linkedin" style="padding-bottom:40px"><a
+							<div class="hero-cta scroll-together" id="linkedin" style="padding-bottom:40px"><a
 									class="blue-button button button-primary button-shadow"
 									href="https://www.linkedin.com/in/alinakrav/">My LinkedIn</a></div>
 						</div>
@@ -76,56 +77,65 @@
 						<div class="media-header text-center">
 							<h2 class="section-title mt-1">Projects</h2>
 						</div>
-						<p class="section-paragraph mb-1">My most recent work is LiveStocks, an IOS app I created in
-							<span style="color: #74a373">XCode</span> after not finding a decent way to watch my stock
-							portfolio holdings. I considered this the perfect opportunity
-							to get into IOS development and <span style="color: #74a373">Swift</span>, and spent several
-							weeks intensively working on this project, which proved to be rewarding, as well as a major
-							learning curve.<br />I&#39;m looking into
-							potentially update my app with a widget, to make use of the new functionality in IOS 14.
-						</p>
-						<center style="padding-bottom: 130px">
-							<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
-									id="livestocks" src="media/demo-light.mp4" type="video/mp4"
-									style="height:85vh; position: relative"></a>
-							<div>
-								<button class="dot" id="dot-light"
-									onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-light.mp4'; v.currentTime=t"></button>
-								<button class="dot" id="dot-dark"
-									onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-dark.mp4'; v.currentTime=t"></button>
-							</div>
-						</center>
-						<p class="section-paragraph mb-1">I started learning how to incorporate existing API to serve my
-							own purposes. This is an implementation of PyImageSearch&#39;s Facial Landmark API, as well
-							as their Face Alignment that uses the <span style="color: #74a373">dlib</span> and <span
-								style="color: #74a373">OpenCV</span> libraries to detect faces in one image, and then
-							output all their aligned versions as a collection of 68 points, outlining their main
-							features.<br />I am
-							hoping to eventually think of a way to analyse the similarity between 2 different faces,
-							based on the type of their facial structure.</p>
-						<div style="padding-bottom: 130px"><a
-								href="https://github.com/kravchenkoalina/Facial-Landmarks"><img id="facial-landmarks"
-									src="media/facial-landmarks.gif" style="width:100%; position: relative"></a></div>
-						<p class="section-paragraph mb-1">My favourite project by far was last year&#39;s PokemonBattle,
-							which was a group effort with 2 other people. It was exam season, and even under extreme
-							time constraints, I got to design, program, and review
-							many major parts of the game.<br />Even though it was fairly tasking having to combine code
-							with other people, it taught me the importance of clear, concise, and commented code. In the
-							end, we achieved an amazing final product that impressed
-							many.</p>
-						<div style="padding-bottom: 130px"><a
-								href="https://github.com/kravchenkoalina/PokemonBattleGrounds"><img id="pokemon-battle"
-									src="media/pokemon-battle.gif" style="width:100%; position: relative"></a></div>
-						<p class="section-paragraph mb-1">This one was a small predecessor to our final project - a
-							typing game with similar Pokemon Graphics. It&#39;s not much, but it served to familiarise
-							our team with the Greenfoot IDE that we were required to
-							use.</p>
 
-						<div class="media-canvas" style="visibility: visible">
-							<a href="https://github.com/kravchenkoalina/PokemonTypingGame"><img id="pokemon-typing"
-									src="media/pokemon-typing.gif" style="width:100%; position: relative;"></a>
+						<div class="project">
+							<p class="section-paragraph mb-1">My most recent work is LiveStocks, an IOS app I created in
+								<span style="color: #74a373">XCode</span> after not finding a decent way to watch my stock
+								portfolio holdings. I considered this the perfect opportunity
+								to get into IOS development and <span style="color: #74a373">Swift</span>, and spent several
+								weeks intensively working on this project, which proved to be rewarding, as well as a major
+								learning curve.<br />I&#39;m looking into
+								potentially update my app with a widget, to make use of the new functionality in IOS 14.
+							</p>
+							<div style="padding-bottom: 130px; text-align: center;">
+								<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
+										id="livestocks" src="media/demo-light.mp4" type="video/mp4"
+										style="height:85vh; position: relative"></a>
+								<div>
+									<button class="dot" id="dot-light"
+										onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-light.mp4'; v.currentTime=t"></button>
+									<button class="dot" id="dot-dark"
+										onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-dark.mp4'; v.currentTime=t"></button>
+								</div>
+							</div>
 						</div>
 
+						<div class="project">
+							<p class="section-paragraph mb-1">I started learning how to incorporate existing API to serve my
+								own purposes. This is an implementation of PyImageSearch&#39;s Facial Landmark API, as well
+								as their Face Alignment that uses the <span style="color: #74a373">dlib</span> and <span
+									style="color: #74a373">OpenCV</span> libraries to detect faces in one image, and then
+								output all their aligned versions as a collection of 68 points, outlining their main
+								features.<br />I am
+								hoping to eventually think of a way to analyse the similarity between 2 different faces,
+								based on the type of their facial structure.</p>
+							<div style="padding-bottom: 130px"><a
+									href="https://github.com/kravchenkoalina/Facial-Landmarks"><img id="facial-landmarks"
+										src="media/facial-landmarks.gif" style="width:100%; position: relative"></a></div>
+						</div>
+
+						<div class="project">
+							<p class="section-paragraph mb-1">My favourite project by far was last year&#39;s PokemonBattle,
+								which was a group effort with 2 other people. It was exam season, and even under extreme
+								time constraints, I got to design, program, and review
+								many major parts of the game.<br />Even though it was fairly tasking having to combine code
+								with other people, it taught me the importance of clear, concise, and commented code. In the
+								end, we achieved an amazing final product that impressed
+								many.</p>
+							<div style="padding-bottom: 130px"><a
+									href="https://github.com/kravchenkoalina/PokemonBattleGrounds"><img id="pokemon-battle"
+										src="media/pokemon-battle.gif" style="width:100%; position: relative"></a></div>
+						</div>
+
+						<div class="project">
+							<p class="section-paragraph mb-1">This one was a small predecessor to our final project - a
+								typing game with similar Pokemon Graphics. It&#39;s not much, but it served to familiarise
+								our team with the Greenfoot IDE that we were required to
+								use.</p>
+							<div class="media-canvas" style="visibility: visible">
+								<a href="https://github.com/kravchenkoalina/PokemonTypingGame"><img id="pokemon-typing"
+										src="media/pokemon-typing.gif" style="width:100%; position: relative;"></a></div>
+						</div>
 					</div>
 				</div>
 			</section>
