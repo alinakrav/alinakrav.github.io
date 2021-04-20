@@ -603,7 +603,8 @@ td .hoverclip:hover .tooltip{
 }
 
 .container-sm {
-	max-width: 848px
+	max-width: 848px;
+	padding-bottom:90px;
 }
 
 .container .container-sm {
@@ -1791,7 +1792,6 @@ td .hoverclip:hover .tooltip{
 	.media .section-paragraph {
 		padding-left: 72px;
 		padding-right: 72px;
-		margin-bottom: 80px
 	}
 
 	.media-canvas::before {
@@ -1836,7 +1836,7 @@ td .hoverclip:hover .tooltip{
 
 .body-wrap {
 	background: #06101F;
-	overflow: hidden;
+	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh

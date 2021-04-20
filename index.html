@@ -23,183 +23,168 @@
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </head>
 
-<body class="is-boxed has-animations">
-	<div class="body-wrap boxed-container">
-		<main>
-			<img src="media/header-image.png" style="width: 100%">
-			<section class="hero"></section>
+<body class="body-wrap is-boxed has-animations">
+	<main>
+		<img src="media/header-image.jpg" style="width: 100%">
 
-			<section class="media section">
-				<div class="container-sm">
-					<div class="media-inner section-inner">
-						<div class="media-header text-center">
-							<h2 class="section-title mt-0">About Me</h2>
-							<p class="section-paragraph mb-0">Third year Computer Science student at Queen's University,
-								living in Markham, Ontario. Interested in problem solving and finding ways to automate
-								tasks.
-								Right now, I&#39;m focused on school and maintaining my spot on the Honour&#39;s List,
-								but I am excited to invest time in a company related to
-								my field.<br /><br />I&#39;ve learned a lot during my work experiences, group projects,
-								and individual projects, whether academic or personal.
-								They forced me to learn different programming strategies, and cooperation
-								tactics to help optimise the
-								quality of the final product under a time constraint.</p>
-							<div class="hero-cta scroll-together" id="resume"><a
-									class="green-button button button-primary button-shadow" onclick="toggleModal(true)">My
-									Resumé</a></div>
-							<div class="hidden" id="resume_modal">
-								<div id="pdf-options">
-									<button id="pdf-close" onclick="toggleModal(false)" data-close>
-										<div id="circle"></div>
-										<span aria-hidden="true">&times;</span>
-									</button>
-									<div id="lang_box">
-										<div id="lang_selected" class="english">🇬🇧 English<p style="display:inline; font-size:10px; padding-left:10px;">&#9660</p>
-											<div id="lang_menu" onclick="changeLang()">🇷🇺 Русский</div>	
-										</div>	
-									</div>
-								</div>
-								<iframe id="resume-content" src="media/Alina - Resume.pdf" frameborder="0"></iframe>
-							</div>
-							<div class="hero-cta scroll-together" id="github"><a class="pink-button button button-primary button-shadow"
-									href="https://github.com/kravchenkoalina">My GitHub</a></div>
-							<div class="hero-cta scroll-together" id="linkedin" style="padding-bottom:40px"><a
-									class="blue-button button button-primary button-shadow"
-									href="https://www.linkedin.com/in/alinakrav/">My LinkedIn</a></div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="media section">
-				<div class="container-sm" style="padding-bottom:90px">
-					<div class="media-inner section-inner has-top-divider">
-						<div class="media-header text-center">
-							<h2 class="section-title mt-1">Projects</h2>
-						</div>
-
-						<div class="project">
-							<p class="section-paragraph mb-1">My most recent work is LiveStocks, an IOS app I created in
-								<span style="color: #74a373">XCode</span> after not finding a decent way to watch my stock
-								portfolio holdings. I considered this the perfect opportunity
-								to get into IOS development and <span style="color: #74a373">Swift</span>, and spent several
-								weeks intensively working on this project, which proved to be rewarding, as well as a major
-								learning curve.<br />I&#39;m looking into
-								potentially update my app with a widget, to make use of the new functionality in IOS 14.
-							</p>
-							<div style="padding-bottom: 130px; text-align: center;">
-								<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
-										id="livestocks" src="media/demo-light.mp4" type="video/mp4"
-										style="height:85vh; position: relative"></a>
-								<div>
-									<button class="dot" id="dot-light"
-										onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-light.mp4'; v.currentTime=t"></button>
-									<button class="dot" id="dot-dark"
-										onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-dark.mp4'; v.currentTime=t"></button>
-								</div>
-							</div>
-						</div>
-
-						<div class="project">
-							<p class="section-paragraph mb-1">I started learning how to incorporate existing API to serve my
-								own purposes. This is an implementation of PyImageSearch&#39;s Facial Landmark API, as well
-								as their Face Alignment that uses the <span style="color: #74a373">dlib</span> and <span
-									style="color: #74a373">OpenCV</span> libraries to detect faces in one image, and then
-								output all their aligned versions as a collection of 68 points, outlining their main
-								features.<br />I am
-								hoping to eventually think of a way to analyse the similarity between 2 different faces,
-								based on the type of their facial structure.</p>
-							<div style="padding-bottom: 130px"><a
-									href="https://github.com/kravchenkoalina/Facial-Landmarks"><img id="facial-landmarks"
-										src="media/facial-landmarks.gif" style="width:100%; position: relative"></a></div>
-						</div>
-
-						<div class="project">
-							<p class="section-paragraph mb-1">My favourite project by far was last year&#39;s PokemonBattle,
-								which was a group effort with 2 other people. It was exam season, and even under extreme
-								time constraints, I got to design, program, and review
-								many major parts of the game.<br />Even though it was fairly tasking having to combine code
-								with other people, it taught me the importance of clear, concise, and commented code. In the
-								end, we achieved an amazing final product that impressed
-								many.</p>
-							<div style="padding-bottom: 130px"><a
-									href="https://github.com/kravchenkoalina/PokemonBattleGrounds"><img id="pokemon-battle"
-										src="media/pokemon-battle.gif" style="width:100%; position: relative"></a></div>
-						</div>
-
-						<div class="project">
-							<p class="section-paragraph mb-1">This one was a small predecessor to our final project - a
-								typing game with similar Pokemon Graphics. It&#39;s not much, but it served to familiarise
-								our team with the Greenfoot IDE that we were required to
-								use.</p>
-							<div class="media-canvas" style="visibility: visible">
-								<a href="https://github.com/kravchenkoalina/PokemonTypingGame"><img id="pokemon-typing"
-										src="media/pokemon-typing.gif" style="width:100%; position: relative;"></a></div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="features section">
-				<div class="container">
-					<div class="features-inner section-inner" style="padding-top: 0px;">
-						<h2 id="other-projects" class="section-title mt-0" style="margin-top: 130px">Other Projects</h2>
-						<div class="features-wrap">
-							<div class="feature is-revealing">
-								<div class="feature-inner">
-									<div class="feature-icon">
-										<a href="https://github.com/kravchenkoalina/ghost-pygame"><img
-												src="media/ghost-pygame.gif"
-												style="width:110%; position: relative;"></a>
-									</div>
-									<h3 class="feature-title mt-24">Ghost Greenscreen</h3>
-									<p class="text-sm mb-0">A python program that removes pure green from an image, and
-										places in on a background with a 'ghost' effect.</p>
-								</div>
-							</div>
-							<div class="feature is-revealing">
-								<div class="feature-inner">
-									<div class="feature-icon">
-										<a href="https://github.com/kravchenkoalina/space-game"><img
-												src="media/space-game.gif" style="width:110%; position: relative;"></a>
-									</div>
-									<h3 class="feature-title mt-24">Space Game</h3>
-									<p class="text-sm mb-0">Attempted recreation of my favourite mobile game at the
-										time, Line Breaker. Made with Greenfoot.</p>
-								</div>
-							</div>
-							<div class="feature is-revealing">
-								<div class="feature-inner">
-									<div class="feature-icon">
-										<a href="https://github.com/kravchenkoalina/card-game"><img
-												src="media/card-game.gif" style="width:110%; position: relative;"></a>
-									</div>
-									<h3 class="feature-title mt-24">Adobe Flash Game</h3>
-									<p class="text-sm mb-0">Made in Adobe Flash as my final grade 10 CS project.
-										Combines programming and animation.</p>
-								</div>
+		<section class="media section container-sm text-center">
+			<div class="section-inner">
+				<h2 class="section-title mt-0">About Me</h2>
+				<p class="section-paragraph mb-0">Third year Computer Science Honour's student at Queen's
+					University,
+					living in Markham, Ontario. Interested in problem solving and finding ways to automate
+					tasks.<br /><br />I&#39;ve learned a lot during my work experiences, group projects,
+					and individual projects, whether academic or personal.
+					They forced me to learn different programming strategies, and cooperation
+					tactics to help optimise the
+					quality of the final product under a time constraint.</p>
+				<div class="hero-cta scroll-together" id="resume"><a
+						class="green-button button button-primary button-shadow" onclick="toggleModal(true)">My
+						Resumé</a></div>
+				<div class="hidden" id="resume_modal">
+					<div id="pdf-options">
+						<button id="pdf-close" onclick="toggleModal(false)" data-close>
+							<div id="circle"></div>
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<div id="lang_box">
+							<div id="lang_selected" class="english">🇬🇧 English<p
+									style="display:inline; font-size:10px; padding-left:10px;">&#9660</p>
+								<div id="lang_menu" onclick="changeLang()">🇷🇺 Русский</div>
 							</div>
 						</div>
 					</div>
+					<iframe id="resume-content" src="media/Alina - Resume.pdf" frameborder="0"></iframe>
 				</div>
-			</section>
-
-			<div class="media-header text-center has-top-divider" style="padding-top:50px">
-				<h2 class="section-title mt-1" style="margin-bottom: 40px;">Contact</h2>
-			</div>
-			<div id="email" class="media-header text-center" style="padding-bottom:150px">
-				<a class="button button-primary button-shadow" title="Compose an Email"
-					href="mailto:alina.kr@yahoo.com">alina.kr@yahoo.com</a>
-				<btn class="share" data-clipboard-text="alina.kr@yahoo.com">
-					<img class="image clippy" title="Copy to Clipboard" src="media/clippy-stencil.png">
-				</btn>
+				<div class="hero-cta scroll-together" id="github"><a
+						class="pink-button button button-primary button-shadow"
+						href="https://github.com/kravchenkoalina">My GitHub</a></div>
+				<div class="hero-cta scroll-together" id="linkedin" style="padding-bottom:40px"><a
+						class="blue-button button button-primary button-shadow"
+						href="https://www.linkedin.com/in/alinakrav/">My LinkedIn</a></div>
 			</div>
 
-		</main>
-	</div>
+			<div class="section-inner has-top-divider">
+				<h2 class="section-title mt-1">Projects</h2>
+
+				<div class="project">
+					<p class="section-paragraph mb-1">My most recent work is LiveStocks, an IOS app I created in
+						<span style="color: #74a373">XCode</span> after not finding a decent way to watch my stock
+						portfolio holdings. I considered this the perfect opportunity
+						to get into IOS development and <span style="color: #74a373">Swift</span>, and spent several
+						weeks intensively working on this project, which proved to be rewarding, as well as a major
+						learning curve.<br />I&#39;m looking into
+						potentially update my app with a widget, to make use of the new functionality in IOS 14.
+					</p>
+					<div style="padding-bottom: 130px; text-align: center;">
+						<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
+								id="livestocks" src="media/demo-light.mp4" type="video/mp4"
+								style="height:85vh; position: relative"></a>
+						<div>
+							<button class="dot" id="dot-light"
+								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-light.mp4'; v.currentTime=t"></button>
+							<button class="dot" id="dot-dark"
+								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-dark.mp4'; v.currentTime=t"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="project">
+					<p class="section-paragraph mb-1">I started learning how to incorporate existing API to serve my
+						own purposes. This is an implementation of PyImageSearch&#39;s Facial Landmark API, as well
+						as their Face Alignment that uses the <span style="color: #74a373">dlib</span> and <span
+							style="color: #74a373">OpenCV</span> libraries to detect faces in one image, and then
+						output all their aligned versions as a collection of 68 points, outlining their main
+						features.<br />I am
+						hoping to eventually think of a way to analyse the similarity between 2 different faces,
+						based on the type of their facial structure.</p>
+					<div style="padding-bottom: 130px"><a
+							href="https://github.com/kravchenkoalina/Facial-Landmarks"><img id="facial-landmarks"
+								src="media/facial-landmarks.gif" style="width:100%; position: relative"></a></div>
+				</div>
+
+				<div class="project">
+					<p class="section-paragraph mb-1">My favourite project by far was last year&#39;s PokemonBattle,
+						which was a group effort with 2 other people. It was exam season, and even under extreme
+						time constraints, I got to design, program, and review
+						many major parts of the game.<br />Even though it was fairly tasking having to combine code
+						with other people, it taught me the importance of clear, concise, and commented code. In the
+						end, we achieved an amazing final product that impressed
+						many.</p>
+					<div style="padding-bottom: 130px"><a
+							href="https://github.com/kravchenkoalina/PokemonBattleGrounds">
+							<video id="pokemon-battle" style="width:100%; position: relative" autoplay loop muted playsinline>
+							<source src="media/pokemon-battle.mp4" type="video/mp4">
+							</video>
+							<!-- <img id="pokemon-battle"
+								src="media/pokemon-battle.gif" style="width:100%; position: relative"> -->
+							</a></div>
+				</div>
+
+				<div class="project">
+					<p class="section-paragraph mb-1">This one was a small predecessor to our final project - a
+						typing game with similar Pokemon Graphics. It&#39;s not much, but it served to familiarise
+						our team with the Greenfoot IDE that we were required to
+						use.</p>
+					<div class="media-canvas" style="visibility: visible">
+						<a href="https://github.com/kravchenkoalina/PokemonTypingGame"><img id="pokemon-typing"
+								src="media/pokemon-typing.gif" style="width:100%; position: relative;"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="features section container">
+			<div class="features-inner section-inner" style="padding-top: 0px;">
+				<h2 id="other-projects" class="section-title mt-0" style="margin-top: 130px">Other Projects</h2>
+				<div class="features-wrap">
+					<div class="feature is-revealing">
+						<div class="feature-inner">
+							<div class="feature-icon">
+								<a href="https://github.com/kravchenkoalina/ghost-pygame"><img
+										src="media/ghost-pygame.gif" style="width:110%; position: relative;"></a>
+							</div>
+							<h3 class="feature-title mt-24">Ghost Greenscreen</h3>
+							<p class="text-sm mb-0">A python program that removes pure green from an image, and
+								places in on a background with a 'ghost' effect.</p>
+						</div>
+					</div>
+					<div class="feature is-revealing">
+						<div class="feature-inner">
+							<div class="feature-icon">
+								<a href="https://github.com/kravchenkoalina/space-game"><img src="media/space-game.gif"
+										style="width:110%; position: relative;"></a>
+							</div>
+							<h3 class="feature-title mt-24">Space Game</h3>
+							<p class="text-sm mb-0">Attempted recreation of my favourite mobile game at the
+								time, Line Breaker. Made with Greenfoot.</p>
+						</div>
+					</div>
+					<div class="feature is-revealing">
+						<div class="feature-inner">
+							<div class="feature-icon">
+								<a href="https://github.com/kravchenkoalina/card-game"><img src="media/card-game.gif"
+										style="width:110%; position: relative;"></a>
+							</div>
+							<h3 class="feature-title mt-24">Adobe Flash Game</h3>
+							<p class="text-sm mb-0">Made in Adobe Flash as my final grade 10 CS project.
+								Combines programming and animation.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 
 	<footer class="site-footer">
-		<div class="container">
+		<div id="email" class="has-top-divider text-center" style="padding-bottom:150px; padding-top:50px;">
+			<h2 class="section-title mt-1" style="margin-bottom: 40px;">Contact</h2>
+			<a class="button button-primary button-shadow" title="Compose an Email"
+				href="mailto:alina.kr@yahoo.com">alina.kr@yahoo.com</a>
+			<btn class="share" data-clipboard-text="alina.kr@yahoo.com">
+				<img class="image clippy" title="Copy to Clipboard" src="media/clippy-stencil.png">
+			</btn>
+		</div>
 	</footer>
 	</div>
 
