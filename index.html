@@ -8,9 +8,9 @@
 	<meta name="image" property="og:image" content="media/header-image.png">
 	<meta name="title" property="og:title" content="My Digital Portfolio">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#ff0000">
-	<meta name="msapplication-navbutton-color" content="#ff0000"/>
-	<meta name="theme-color" content="#ff0000"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#3e543b">
+	<meta name="msapplication-nautton-color" content="#3e543b"/>
+	<meta name="theme-color" content="#3e543b"/>
 
 
 	<meta name="description" property="og:description"
@@ -34,6 +34,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </head>
+
+<!-- prevent empty space on the right on mobile screens -->
+<style> 
+	html {
+		width: 100%; margin: 0px; padding: 0px;
+	}
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		html {
+			overflow-x:hidden;
+		}
+	}
+</style>
 
 <body class="body-wrap is-boxed has-animations">
 	<main>
