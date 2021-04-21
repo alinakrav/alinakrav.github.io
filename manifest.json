@@ -3,9 +3,9 @@
 	"name": "Alina Kravchenko",
 	"description": "My digital portfolio.",
 	"icons": [{
-		"src": "media/header-image.jpg",
-		"type": "image/jpg",
-		"sizes": "3485x2182"
+		"src": "media/icon.png",
+		"type": "image/png",
+		"sizes": "512x512"
 	}],
 	"start_url": "/",
 	"background_color": "#08141c",
