@@ -1,7 +1,7 @@
 {
 	"short_name": "Alina",
 	"name": "Alina Kravchenko",
-	"description": "My digital portfolio.",
+	"description": "Projects and information relevant to my in-progress programming career.",
 	"icons": [{
 		"src": "media/icon-512.png",
 		"type": "image/png",
