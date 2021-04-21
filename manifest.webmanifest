@@ -1,0 +1,18 @@
+{
+	"short_name": "Alina",
+	"name": "Alina Kravchenko",
+	"icons": [
+	{
+		"src": "media/header-image.jpg",
+		"type": "image/jpg",
+		"sizes": "3485 x 2182"
+	}
+	],
+	"start_url": "",
+	"background_color": "#08141c",
+	"theme_color": "#ff0000",
+	"display": "standalone",
+	"prefer_related_applications": "true"
+
+
+}
