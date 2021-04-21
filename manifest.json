@@ -9,6 +9,7 @@
 		"purpose": "any maskable"
 	}],
 	"start_url": "/",
+	"scope": "/",
 	"background_color": "#08141c",
 	"theme_color": "#ff0000",
 	"display": "standalone",
