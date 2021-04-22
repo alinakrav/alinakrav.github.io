@@ -38,12 +38,7 @@
 <!-- prevent empty space on the right on mobile screens -->
 <style> 
 	html {
-		width: 100%; margin: 0px; padding: 0px;
-	}
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		html {
-			overflow-x:hidden;
-		}
+		width: 100%; margin: 0px; padding: 0px; overflow-x:hidden;
 	}
 </style>
 
@@ -103,7 +98,7 @@
 					<div style="padding-bottom: 130px; text-align: center;">
 						<a href="https://github.com/kravchenkoalina/LiveStocks"><video controls autoplay loop muted
 								id="livestocks" src="media/demo-light.mp4" type="video/mp4"
-								style="height:85vh; position: relative"></a>
+								style="max-height:85vh; max-width: 100%; position: relative"></a>
 						<div>
 							<button class="dot" id="dot-light"
 								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='media/demo-light.mp4'; v.currentTime=t"></button>
@@ -124,9 +119,7 @@
 						based on the type of their facial structure.</p>
 					<div style="padding-bottom: 130px"><a
 							href="https://github.com/kravchenkoalina/Facial-Landmarks">
-							<!-- <img id="facial-landmarks"
-								src="media/facial-landmarks.gif" style="width:100%; position: relative"> -->
-								<video id="facial-landmarks" style="width:100%; position: relative" autoplay loop muted playsinline>
+								<video id="facial-landmarks" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
 									<source src="media/facial-landmarks.mp4" type="video/mp4">
 									</video>
 								</a></div>
@@ -142,11 +135,9 @@
 						many.</p>
 					<div style="padding-bottom: 130px"><a
 							href="https://github.com/kravchenkoalina/PokemonBattleGrounds">
-							<video id="pokemon-battle" style="width:100%; position: relative" autoplay loop muted playsinline>
+							<video id="pokemon-battle" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
 							<source src="media/pokemon-battle.mp4" type="video/mp4">
 							</video>
-							<!-- <img id="pokemon-battle"
-								src="media/pokemon-battle.gif" style="width:100%; position: relative"> -->
 							</a></div>
 				</div>
 
@@ -157,9 +148,7 @@
 						use.</p>
 					<div class="media-canvas" style="visibility: visible">
 						<a href="https://github.com/kravchenkoalina/PokemonTypingGame">
-							<!-- <img id="pokemon-typing"
-								src="media/pokemon-typing.gif" style="width:100%; position: relative;"> -->
-							<video id="pokemon-typing" style="width:100%; position: relative" autoplay loop muted playsinline>
+							<video id="pokemon-typing" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
 								<source src="media/pokemon-typing.mp4" type="video/mp4">
 								</video>
 							</a>
@@ -176,8 +165,6 @@
 						<div class="feature-inner">
 							<div class="feature-icon">
 								<a href="https://github.com/kravchenkoalina/ghost-pygame">
-									<!-- <img
-										src="media/ghost-pygame.gif" style="width:110%; position: relative;"> -->
 										<video id="ghost-pygame" style="width:100%; position: relative" autoplay loop muted playsinline>
 											<source src="media/ghost-pygame.mp4" type="video/mp4">
 											</video>
@@ -192,8 +179,6 @@
 						<div class="feature-inner">
 							<div class="feature-icon">
 								<a href="https://github.com/kravchenkoalina/space-game">
-									<!-- <img src="media/space-game.gif"
-										style="width:110%; position: relative;"> -->
 										<video id="space-game" style="width:100%; position: relative" autoplay loop muted playsinline>
 											<source src="media/space-game.mp4" type="video/mp4">
 											</video>
@@ -208,8 +193,6 @@
 						<div class="feature-inner">
 							<div class="feature-icon">
 								<a href="https://github.com/kravchenkoalina/card-game">
-									<!-- <img src="media/card-game.gif"
-										style="width:110%; position: relative;"> -->
 										<video id="card-game" style="width:100%; position: relative" autoplay loop muted playsinline>
 											<source src="media/card-game.mp4" type="video/mp4">
 											</video>
@@ -231,7 +214,7 @@
 			<a class="button button-primary button-shadow" title="Compose an Email"
 				href="mailto:alina.kr@yahoo.com">alina.kr@yahoo.com</a>
 			<btn class="share" data-clipboard-text="alina.kr@yahoo.com">
-				<img class="image clippy" title="Copy to Clipboard" src="media/clippy-stencil.png">
+				<img class="image clippy" title="Copy to Clipboard" src="media/clippy-stencil.png" style="height: auto; max-height: 100%;">
 			</btn>
 		</div>
 	</footer>

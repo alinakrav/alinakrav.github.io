@@ -423,6 +423,18 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 @media (max-width: 640px) {
+	#other-projects {
+		margin-top: 50px !important;
+	}
+
+	.project > div {
+		/* padding-bottom: 100px; */
+	}
+	.section-inner {
+		/* padding-top: 20px !important; */
+		/* padding-bottom: 20px !important; */
+	}
+
 	.h1-mobile {
 		font-size: 44px;
 		line-height: 56px;
