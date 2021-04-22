@@ -13,5 +13,5 @@
 	"background_color": "#08141c",
 	"theme_color": "#1b242c",
 	"display": "browser",
-	"prefer_related_applications": "true"
+	"prefer_related_applications": true
 }
