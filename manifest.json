@@ -12,6 +12,6 @@
 	"scope": "/",
 	"background_color": "#08141c",
 	"theme_color": "#1b242c",
-	"display": "minimal-ui",
+	"display": "fullscreen",
 	"prefer_related_applications": true
 }
