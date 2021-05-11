@@ -3,7 +3,7 @@
 	"name": "Alina Kravchenko",
 	"description": "Projects and information relevant to my in-progress programming career.",
 	"icons": [{
-		"src": "media/icon-512.png",
+		"src": "assets/icon-512.png",
 		"type": "image/png",
 		"sizes": "512x512",
 		"purpose": "any maskable"
