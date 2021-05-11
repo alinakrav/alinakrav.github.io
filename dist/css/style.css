@@ -110,6 +110,20 @@ audio, video {
 	display: inline-block
 }
 
+/* remove unnecessary video controls */
+
+video::-webkit-media-controls-mute-button {
+	-webkit-appearance:none;
+}
+
+video::-webkit-media-controls-current-time-display {
+	display: none;
+}
+
+video::-webkit-media-controls-time-remaining-display {
+	display: none;
+}
+
 audio:not([controls]) {
 	display: none;
 	height: 0
