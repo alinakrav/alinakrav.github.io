@@ -100,11 +100,17 @@
 								id="livestocks" src="assets/demo-light.mp4" type="video/mp4"
 								style="max-height:85vh; max-width: 100%; position: relative"></a>
 						<div>
-							<button class="dot" id="dot-light"
+							<div class="dot-container">
+								<button class="dot" id="dot-light"
 								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='assets/demo-light.mp4'; v.currentTime=t"></button>
+								<p>Light</p>
+							</div>
+							<div class="dot-container">
 							<button class="dot" id="dot-dark"
 								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='assets/demo-dark.mp4'; v.currentTime=t"></button>
-						</div>
+								<p>Dark</p>
+							</div>
+							</div>
 					</div>
 				</div>
 

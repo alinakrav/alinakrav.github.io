@@ -149,10 +149,14 @@ button, input, optgroup, select, textarea {
 	height: 15px;
 	width: 15px;
 	border-radius: 50%;
-	display: inline-block;
-	margin-right: 10px;
 	border: 0;
 	box-shadow: 0 0 10px #fff;
+	transition: .3s ease-out;
+}
+
+.dot:hover {
+	box-shadow: 0 0 3px #fff;
+	transition: .5s;
 }
 
 #dot-light {
@@ -161,6 +165,30 @@ button, input, optgroup, select, textarea {
 
 #dot-dark {
 	background-color: #000;
+}
+
+.dot-container {
+	margin-right: 10px;
+	display: inline-flex; 
+	flex-direction: column; 
+	align-items: center;
+}
+
+.dot-container p {
+	opacity: 0;
+	position: absolute; 
+	margin-top: 25px;
+	margin-bottom: 0;
+	font-size: small;
+	color: #57657a;
+	font-weight: bold;
+	transition: .3s ease-out;
+	pointer-events: none;
+}
+
+.dot-container:hover p {
+	transition: .5s;
+	opacity: 1;
 }
 
 /* project category scroll attributes */
