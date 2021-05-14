@@ -19,14 +19,15 @@
 
 	<link rel="manifest" href="manifest.json">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="assets/icon-192.png">
-	<link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700&display=swap">
 	<!-- only load used styles first, preload the rest -->
 	<link rel="stylesheet" href="dist/css/bootstrap.css">
 	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
 	<noscript><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"></noscript>
-	
+
 	<link rel="stylesheet" href="dist/css/style.css">
 
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -36,10 +37,8 @@
 </head>
 
 <!-- prevent empty space on the right on mobile screens -->
-<style> 
-	html {
-		width: 100%; margin: 0px; padding: 0px; overflow-x:hidden;
-	}
+<style>
+	html { width: 100%; margin: 0px; padding: 0px; overflow-x:hidden; }
 </style>
 
 <body class="body-wrap is-boxed has-animations">
@@ -57,9 +56,9 @@
 					They forced me to learn different programming strategies, and cooperation
 					tactics to help optimise the
 					quality of the final product under a time constraint.</p>
-				<div class="hero-cta scroll-together" id="resume"><a
-						class="green-button button button-primary button-shadow" onclick="toggleModal(true)">My
-						Resumé</a></div>
+				<div class="hero-cta scroll-together" id="resume">
+					<a class="green-button button button-primary button-shadow" onclick="toggleModal(true)">Resumé</a>
+				</div>
 				<div class="hidden" id="resume_modal">
 					<div id="pdf-options">
 						<button id="pdf-close" onclick="toggleModal(false)" data-close>
@@ -75,12 +74,12 @@
 					</div>
 					<iframe width="100%" id="resume-content" src="assets/Alina - Resume.pdf" frameborder="0"></iframe>
 				</div>
-				<div class="hero-cta scroll-together" id="github"><a
-						class="pink-button button button-primary button-shadow"
-						href="https://github.com/alinakrav">My GitHub</a></div>
-				<div class="hero-cta scroll-together" id="linkedin" style="padding-bottom:40px"><a
-						class="blue-button button button-primary button-shadow"
-						href="https://www.linkedin.com/in/alinakrav/">My LinkedIn</a></div>
+				<div class="hero-cta scroll-together" id="github">
+					<a class="pink-button button button-primary button-shadow" href="https://github.com/alinakrav">GitHub</a>
+				</div>
+				<div class="hero-cta scroll-together" id="linkedin" style="padding-bottom:40px">
+					<a class="blue-button button button-primary button-shadow" href="https://www.linkedin.com/in/alinakrav/">LinkedIn</a>
+				</div>
 			</div>
 
 			<div id="projects" class="section-inner has-top-divider">
@@ -97,21 +96,21 @@
 					</p>
 					<div style="text-align: center; display: grid; justify-content: center;">
 						<a class="media-container-vertical" href="https://github.com/alinakrav/LiveStocks">
-							<video autoplay loop muted
-								id="livestocks" src="assets/demo-light.mp4" type="video/mp4"></video>
-								<div class="overlay-light" id="overlay-livestocks"></div></a>
+							<video autoplay loop muted playsinline id="livestocks" src="assets/demo-light.mp4" type="video/mp4"></video>
+							<div class="overlay-light" id="overlay-livestocks"></div>
+						</a>
 						<div style="padding-top: 10px;">
 							<div class="dot-container">
 								<button class="dot" id="dot-light"
-								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-light'; v.src='assets/demo-light.mp4'; v.currentTime=t"></button>
+									onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-light'; v.src='assets/demo-light.mp4'; v.currentTime=t"></button>
 								<p>Light</p>
 							</div>
 							<div class="dot-container">
-							<button class="dot" id="dot-dark"
-								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-dark'; v.src='assets/demo-dark.mp4'; v.currentTime=t"></button>
+								<button class="dot" id="dot-dark"
+									onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-dark'; v.src='assets/demo-dark.mp4'; v.currentTime=t"></button>
 								<p>Dark</p>
 							</div>
-							</div>
+						</div>
 					</div>
 				</div>
 
@@ -124,13 +123,14 @@
 						features.<br />I am
 						hoping to eventually think of a way to analyse the similarity between 2 different faces,
 						based on the type of their facial structure.</p>
-					<div><a class="media-container-horizontal"
-							href="https://github.com/alinakrav/Facial-Landmarks">
-								<video id="facial-landmarks"  autoplay loop muted playsinline>
-									<source src="assets/facial-landmarks.mp4" type="video/mp4">
-									</video>
-									<div class="overlay-dark"></div>
-								</a></div>
+					<div>
+						<a class="media-container-horizontal" href="https://github.com/alinakrav/Facial-Landmarks">
+							<video id="facial-landmarks" autoplay loop muted playsinline>
+								<source src="assets/facial-landmarks.mp4" type="video/mp4">
+							</video>
+							<div class="overlay-dark"></div>
+						</a>
+					</div>
 				</div>
 
 				<div class="project">
@@ -141,13 +141,14 @@
 						with other people, it taught me the importance of clear, concise, and commented code. In the
 						end, we achieved an amazing final product that impressed
 						many.</p>
-					<div><a class="media-container-horizontal"
-							href="https://github.com/alinakrav/PokemonBattleGrounds">
+					<div>
+						<a class="media-container-horizontal" href="https://github.com/alinakrav/PokemonBattleGrounds">
 							<video id="pokemon-battle" autoplay loop muted playsinline>
-							<source src="assets/pokemon-battle.mp4" type="video/mp4">
+								<source src="assets/pokemon-battle.mp4" type="video/mp4">
 							</video>
 							<div class="overlay-medium"></div>
-							</a></div>
+						</a>
+					</div>
 				</div>
 
 				<div class="project">
@@ -159,9 +160,9 @@
 						<a class="media-container-horizontal" href="https://github.com/alinakrav/PokemonTypingGame">
 							<video id="pokemon-typing" autoplay loop muted playsinline>
 								<source src="assets/pokemon-typing.mp4" type="video/mp4">
-								</video>
+							</video>
 							<div class="overlay-medium"></div>
-							</a>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -174,11 +175,12 @@
 					<div class="feature is-revealing">
 						<div class="feature-inner">
 							<div class="feature-icon">
-								<a href="https://github.com/alinakrav/ghost-pygame">
-										<video id="ghost-pygame" style="width:100%; position: relative" autoplay loop muted playsinline>
-											<source src="assets/ghost-pygame.mp4" type="video/mp4">
-											</video>
-									</a>
+								<a class="media-container-feature" href="https://github.com/alinakrav/ghost-pygame">
+									<video id="ghost-pygame" style="width:100%; position: relative" autoplay loop muted playsinline>
+										<source src="assets/ghost-pygame.mp4" type="video/mp4">
+									</video>
+									<div class="overlay-dark"></div>
+								</a>
 							</div>
 							<h3 class="feature-title mt-24">Ghost Greenscreen</h3>
 							<p class="text-sm mb-0">A python program that removes pure green from an image, and
@@ -188,11 +190,12 @@
 					<div class="feature is-revealing">
 						<div class="feature-inner">
 							<div class="feature-icon">
-								<a href="https://github.com/alinakrav/space-game">
-										<video id="space-game" style="width:100%; position: relative" autoplay loop muted playsinline>
-											<source src="assets/space-game.mp4" type="video/mp4">
-											</video>
-									</a>
+								<a class="media-container-feature" href="https://github.com/alinakrav/space-game">
+									<video id="space-game" style="width:100%; position: relative" autoplay loop muted playsinline>
+										<source src="assets/space-game.mp4" type="video/mp4">
+									</video>
+									<div class="overlay-dark"></div>
+								</a>
 							</div>
 							<h3 class="feature-title mt-24">Space Game</h3>
 							<p class="text-sm mb-0">Attempted recreation of my favourite mobile game at the
@@ -202,11 +205,12 @@
 					<div class="feature is-revealing">
 						<div class="feature-inner">
 							<div class="feature-icon">
-								<a href="https://github.com/alinakrav/card-game">
-										<video id="card-game" style="width:100%; position: relative" autoplay loop muted playsinline>
-											<source src="assets/card-game.mp4" type="video/mp4">
-											</video>
-									</a>
+								<a class="media-container-feature" href="https://github.com/alinakrav/card-game">
+									<video id="card-game" style="width:100%; position: relative" autoplay loop muted playsinline>
+										<source src="assets/card-game.mp4" type="video/mp4">
+									</video>
+									<div class="overlay-light"></div>
+								</a>
 							</div>
 							<h3 class="feature-title mt-24">Adobe Flash Game</h3>
 							<p class="text-sm mb-0">Made in Adobe Flash as my final grade 10 CS project.
@@ -224,7 +228,8 @@
 			<a class="button button-primary button-shadow" title="Compose an Email"
 				href="mailto:alina.kr@yahoo.com">alina.kr@yahoo.com</a>
 			<btn class="share" data-clipboard-text="alina.kr@yahoo.com">
-				<img class="image clippy" title="Copy to Clipboard" src="assets/clippy-stencil.png" style="height: auto; max-height: 100%;">
+				<img class="image clippy" title="Copy to Clipboard" src="assets/clippy-stencil.png"
+					style="height: auto; max-height: 100%;">
 			</btn>
 		</div>
 	</footer>
