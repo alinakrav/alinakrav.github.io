@@ -121,15 +121,18 @@ audio, video {
 	width:100%;
 }
 .media-container-vertical {
-	max-height: 85vh;
-	height:85vh;
+	/* max-height: 85vh;
+	height:85vh; */
 }
 
 .media-container-horizontal > video {
 	width: 100%;
 }
 .media-container-vertical > video {
-	height: 100%;
+	width: auto;
+	height: auto;
+	max-width: 95vw;
+	max-height: 85vh;
 }
 
 /* project demo vid overlay */
