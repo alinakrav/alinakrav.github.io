@@ -96,18 +96,19 @@
 						potentially update my app with a widget, to make use of the new functionality in IOS 14.
 					</p>
 					<div style="text-align: center;">
-						<a href="https://github.com/alinakrav/LiveStocks"><video autoplay loop muted
-								id="livestocks" src="assets/demo-light.mp4" type="video/mp4"
-								style="max-height:85vh; max-width: 100%; position: relative"></a>
+						<a class="media-container-vertical" href="https://github.com/alinakrav/LiveStocks">
+							<video autoplay loop muted
+								id="livestocks" src="assets/demo-light.mp4" type="video/mp4"></video>
+								<div class="overlay-light" id="overlay-livestocks"></div></a>
 						<div>
 							<div class="dot-container">
 								<button class="dot" id="dot-light"
-								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='assets/demo-light.mp4'; v.currentTime=t"></button>
+								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-light'; v.src='assets/demo-light.mp4'; v.currentTime=t"></button>
 								<p>Light</p>
 							</div>
 							<div class="dot-container">
 							<button class="dot" id="dot-dark"
-								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; v.src='assets/demo-dark.mp4'; v.currentTime=t"></button>
+								onclick="let v=document.getElementById('livestocks'); let t=v.currentTime; document.getElementById('overlay-livestocks').classList='overlay-dark'; v.src='assets/demo-dark.mp4'; v.currentTime=t"></button>
 								<p>Dark</p>
 							</div>
 							</div>
@@ -123,11 +124,12 @@
 						features.<br />I am
 						hoping to eventually think of a way to analyse the similarity between 2 different faces,
 						based on the type of their facial structure.</p>
-					<div><a
+					<div><a class="media-container-horizontal"
 							href="https://github.com/alinakrav/Facial-Landmarks">
-								<video id="facial-landmarks" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
+								<video id="facial-landmarks"  autoplay loop muted playsinline>
 									<source src="assets/facial-landmarks.mp4" type="video/mp4">
 									</video>
+									<div class="overlay-dark"></div>
 								</a></div>
 				</div>
 
@@ -139,11 +141,12 @@
 						with other people, it taught me the importance of clear, concise, and commented code. In the
 						end, we achieved an amazing final product that impressed
 						many.</p>
-					<div><a
+					<div><a class="media-container-horizontal"
 							href="https://github.com/alinakrav/PokemonBattleGrounds">
-							<video id="pokemon-battle" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
+							<video id="pokemon-battle" autoplay loop muted playsinline>
 							<source src="assets/pokemon-battle.mp4" type="video/mp4">
 							</video>
+							<div class="overlay-medium"></div>
 							</a></div>
 				</div>
 
@@ -153,10 +156,11 @@
 						our team with the Greenfoot IDE that we were required to
 						use.</p>
 					<div class="media-canvas" style="visibility: visible">
-						<a href="https://github.com/alinakrav/PokemonTypingGame">
-							<video id="pokemon-typing" style="min-width:88%; max-width: 100%; max-height: 95vh; position: relative" autoplay loop muted playsinline>
+						<a class="media-container-horizontal" href="https://github.com/alinakrav/PokemonTypingGame">
+							<video id="pokemon-typing" autoplay loop muted playsinline>
 								<source src="assets/pokemon-typing.mp4" type="video/mp4">
 								</video>
+							<div class="overlay-medium"></div>
 							</a>
 					</div>
 				</div>

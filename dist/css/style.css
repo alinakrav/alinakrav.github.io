@@ -110,6 +110,52 @@ audio, video {
 	display: inline-block
 }
 
+/* project demo vid sizing */
+
+.media-container-horizontal, .media-container-vertical {
+	display: inline-flex;
+	position: relative;
+}
+.media-container-horizontal {
+	max-width: 680px;
+	width:100%;
+}
+.media-container-vertical {
+	max-height: 85vh;
+	height:85vh;
+}
+
+.media-container-horizontal > video {
+	width: 100%;
+}
+.media-container-vertical > video {
+	height: 100%;
+}
+
+/* project demo vid overlay */
+
+.overlay-dark, .overlay-medium, .overlay-light {
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	opacity: 0;
+	background-color: #fff;
+	transition: .2s ease-out;
+}
+.overlay-dark:hover, .overlay-medium:hover, .overlay-light:hover {
+	transition: .6s;
+}
+.overlay-dark:hover {
+	opacity: .1;
+}
+.overlay-medium:hover {
+	opacity: .25;
+}
+.overlay-light:hover {
+	opacity: .35;
+}
+
 /* remove unnecessary video controls */
 
 video::-webkit-media-controls-mute-button {
