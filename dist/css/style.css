@@ -1452,7 +1452,7 @@ td .hoverclip:hover .tooltip{
 	height: 40px; 
 	width: 100%;
 	display: flex;
-	align-items: top;
+	/* align-items: initial; */
 }
 
 #pdf-close {
