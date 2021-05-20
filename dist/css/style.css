@@ -110,6 +110,10 @@ audio, video {
 	display: inline-block
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* project demo vid container sizing */
 
 .media-container-horizontal, 
