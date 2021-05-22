@@ -131,6 +131,13 @@ body::-webkit-scrollbar-thumb:hover {
     display: none;
 } */
 
+::selection {
+	background: #1a2635; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #1a2635; /* Gecko Browsers */
+}
+
 /* project demo vid container sizing */
 
 .media-container-horizontal, 
