@@ -175,6 +175,9 @@ body::-webkit-scrollbar-thumb:hover {
 	max-height: 85vh;
 }
 
+video { 
+	height: min-intrinsic;
+}
 /* project demo vid overlay */
 
 .overlay-dark, 
