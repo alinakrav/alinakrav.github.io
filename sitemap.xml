@@ -3,5 +3,10 @@
   <url>
     <loc>https://alinakrav.com/</loc>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://alinakrav.com/media/header-image.jpg</image:loc>
+      <image:title>alinakrav.com</image:title>
+      <image:license></image:license>
+    </image:image>
   </url>
 </urlset>
