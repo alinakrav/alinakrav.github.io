@@ -166,7 +166,6 @@ body::-webkit-scrollbar-thumb:hover {
 /* project demo vid sizing */
 
 .media-container-horizontal > video {
-	height: min-intrinsic;
 	width: 100%;
 }
 .media-container-vertical > video {
