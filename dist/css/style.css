@@ -110,26 +110,38 @@ audio, video {
 	display: inline-block
 }
 
+/* custom scrollbar */
+
+html {
+    overflow: overlay;
+	scrollbar-color: #7487a34d rgba(255, 255, 255, 0.035);
+	scrollbar-width: thin;
+}
+
 body::-webkit-scrollbar {
-	width: 5px;
+    width: 6px;
+    background-color: transparent;
 }
 
 body::-webkit-scrollbar-track {
-	background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 	
 body::-webkit-scrollbar-thumb {
 	background:#7487a34d; 
 	border-radius: 10px;
 }
-	
 body::-webkit-scrollbar-thumb:hover {
-	background:rgb(35, 51, 68); 
+	background:rgba(41, 62, 85, 0.6); 
+}
+
+.bodyShowsHeader::-webkit-scrollbar-thumb {
+	background:#00000063 !important; 
+}
+.bodyShowsHeader::-webkit-scrollbar-thumb:hover {
+	background:rgba(41, 62, 85, 0.6) !important; 
 }
 	
-/* body::-webkit-scrollbar {
-    display: none;
-} */
 
 ::selection {
 	background: #1a2635; /* WebKit/Blink Browsers */
@@ -1476,12 +1488,11 @@ td .hoverclip:hover .tooltip{
 	height: 40px; 
 	width: 100%;
 	display: flex;
-	/* align-items: initial; */
 }
 
 #pdf-close {
 	color: white;
-	padding-top: 6px;
+	padding-top: 7px;
 	padding-left: 24px;
 	height: fit-content;
 	width: fit-content;
@@ -1491,7 +1502,8 @@ td .hoverclip:hover .tooltip{
 }
 
 #pdf-close > span {
-	position: absolute;
+	position: relative;
+	z-index: 1;
 	padding-left: 1px;
 	padding-top: 1px;
 }
@@ -1503,7 +1515,7 @@ td .hoverclip:hover .tooltip{
 #circle {
 	opacity: 0;
 	margin-left: -8px;
-	margin-top: -2px;
+	margin-top: -3px;
 	position: absolute;
 	border-radius: 50%;
 	height: 36px;
