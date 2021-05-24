@@ -561,7 +561,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .project:not(:last-of-type) > div {
-	padding-bottom: 130px; 
+	padding-bottom: 90px; 
 }
 
 @media (max-width: 640px) {
