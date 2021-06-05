@@ -564,6 +564,11 @@ h4, h5, h6, .h4, .h5, .h6 {
 	padding-bottom: 90px; 
 }
 
+.highlight {
+	color: #43a8b3;
+	/* color: #74a373; */
+}
+
 @media (max-width: 640px) {
 	.project:not(:last-of-type) > div {
 		padding-bottom: 80px; 
