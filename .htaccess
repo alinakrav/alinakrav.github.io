@@ -5,3 +5,4 @@ RewriteBase /assets/
 
 #if about was requested, server about-company.php
 RewriteRule ^resume$ Alina%20-%20Resume.pdf [L,NC]
+RewriteRule ^clippy$ clippy-stencil.png [L,NC]
