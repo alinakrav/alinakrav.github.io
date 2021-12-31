@@ -1,7 +1,2 @@
-##making rewrite engine on.
-RewriteEngine ON
-##Checking conditions to make sure only non-existing pages get caught.
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-##Doing internal rewrite here.
-RewriteRule ^resume/?$ assets/clippy-stencil.png [NC,L]
+fafdasjklf;alfkdsa
+fdsafjdsakl;fdsafjdsaklfdsaf24329049fjslak;fas;;;fdsajkf;sda-===fdsafsa;
