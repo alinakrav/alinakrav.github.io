@@ -4,3 +4,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
+RewriteRule resume assets/Alina%20-%20Resume.pdf
