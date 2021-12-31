@@ -52,7 +52,10 @@
 
 <body id="body" class="bodyShowsHeader body-wrap is-boxed has-animations">
 	<main>
-		<img id="header" src="assets/header-image.jpg" style="width: 100%" alt="Headshot">
+		<img id="headerLeft" class='headerPart' src="assets/header-image-left.jpg">
+		<img id="headerTxt" class='headerPart' src="assets/header-image-txt.png">
+		<img id="headerRight" class='headerPart' src="assets/header-image-right.png" onload="this.style.visibility='visible'; headerLeft.style.visibility='visible'; headerTxt.style.visibility='visible'; headerTxt.classList='headerPart headerTxtMove'">
+		<img id="header" src="assets/header-image.jpg" style="width: 100%; visibility:hidden;" alt="Headshot">
 
 		<section class="media section container-sm text-center">
 			<div id="about-me" class="section-inner">
