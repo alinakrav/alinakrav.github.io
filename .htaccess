@@ -2,3 +2,4 @@ RewriteEngine ON
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^clippy/?$ assets/clippy-stencil.png [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
