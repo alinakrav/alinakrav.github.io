@@ -1,4 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteBase /
 RewriteRule clippy assets/clippy-stencil.png [L] [NC]
