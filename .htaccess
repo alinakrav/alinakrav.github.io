@@ -1,4 +1,5 @@
 #remove html file extension https://example.com/page.html
 # to https://example.com/page
 RewriteEngine On
+Redirect resume assets/Alina%20-%20Resume.pdf
 RewriteRule resume assets/Alina%20-%20Resume.pdf
