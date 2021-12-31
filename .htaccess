@@ -1,7 +1,7 @@
 #remove html file extension https://example.com/page.html
 # to https://example.com/page
-# redirect any requests for the filename back to the friendly URL
-RewriteRule /assets/Alina%20-%20Resume.pdf /resume [NC,R=302]
+RewriteEngine on
+RewriteBase / 
 
-# rewrite /Color requests to the web form
-RewriteRule ^/resume /assets/Alina%20-%20Resume.pdf
+#if about was requested, server about-company.php
+RewriteRule ^resume$ assets/Alina%20-%20Resume.pdf [L,NC]
