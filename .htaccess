@@ -2,5 +2,5 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^/clippy$ /assets/clippy-stencil.png [NC]
+RewriteRule ^/clippy$ /assets/clippy-stencil.png [R=301,L]
 RewriteRule clippy assets/clippy-stencil.png [L] [NC]
