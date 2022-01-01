@@ -51,10 +51,16 @@
 </head>
 
 <body id="body" class="bodyShowsHeader body-wrap is-boxed has-animations">
+	<!-- wait for everything to load -->
+	<!-- <script type="text/javascript">
+	$(document).ready(function() {
+		$('#body').show();
+	});
+	</script> -->
 	<main>
 		<img id="headerLeft" class='headerPart' src="assets/header-image-left.jpg">
 		<img id="headerTxt" class='headerPart' src="assets/header-image-txt.png">
-		<img id="headerRight" class='headerPart' src="assets/header-image-right.png" onload="this.style.visibility='visible'; headerLeft.style.visibility='visible'; headerTxt.style.visibility='visible'; headerTxt.classList='headerPart headerTxtMove'">
+		<img id="headerRight" class='headerPart' src="assets/header-image-right.png" onload="this.style.visibility='visible'; headerLeft.style.visibility='visible'; headerTxt.style.visibility='visible'; headerTxt.classList='headerPart headerTxtMove'"> 
 		<img id="header" src="assets/header-image.jpg" style="width: 100%; visibility:hidden;" alt="Headshot">
 
 		<section class="media section container-sm text-center">
@@ -76,9 +82,10 @@
 				<div class="hidden" id="resume_modal">
 					<div id="pdf-options">
 						<button id="pdf-close" onclick="toggleModal(false)" data-close>
-							<div id="circle"></div>
+							<div id="circle-close"></div>
 							<span aria-hidden="true">&times;</span>
 						</button>
+						<btn id="circle_link" onclick="copyResumeLink(this)"><input type="image" id="pdf-link" src="assets/link-stencil.png"></btn>
 						<div id="lang_box">
 							<div id="lang_selected" class="english">🇬🇧 English<p
 									style="display:inline; font-size:10px; padding-left:10px;">&#9660;</p>
