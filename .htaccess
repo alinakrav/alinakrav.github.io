@@ -1,2 +1,8 @@
-fafdasjklf;alfkdsa
-fdsafjdsakl;fdsafjdsaklfdsaf24329049fjslak;fas;;;fdsajkf;sda-===fdsafsa;
+##making rewrite engine on.
+RewriteEngine ON
+##Checking conditions to make sure only non-existing pages get caught.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+##Doing internal rewrite here.
+RewriteRule apple test.html [NC,L]
+Redirect orange test.html
