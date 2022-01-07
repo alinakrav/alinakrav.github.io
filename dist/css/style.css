@@ -344,7 +344,8 @@ progress {
 }
 
 textarea {
-	overflow: auto
+	display:none !important;
+	overflow: auto;
 }
 
 [type="checkbox"], [type="radio"] {
