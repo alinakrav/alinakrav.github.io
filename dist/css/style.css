@@ -344,7 +344,11 @@ progress {
 }
 
 textarea {
-	display:none !important;
+	position:fixed !important;
+	top:50% !important;
+	bottom:50% !important;
+	height: 0.02px !important;
+	background-color: rgb(65, 69, 72) !important;
 	overflow: auto;
 }
 
