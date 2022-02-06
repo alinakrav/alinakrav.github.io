@@ -159,10 +159,12 @@ body::-webkit-scrollbar-thumb:hover {
 	
 
 ::selection {
-	background: #1a2635; /* WebKit/Blink Browsers */
+	background: #f9425f; /* WebKit/Blink Browsers */
+	color: white;
 }
 ::-moz-selection {
-	background: #1a2635; /* Gecko Browsers */
+	background: #f9425f; /* Gecko Browsers */
+	color: white;
 }
 
 /* project demo vid container sizing */
